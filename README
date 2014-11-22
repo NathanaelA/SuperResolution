@@ -1,2 +1,6 @@
 SuperResolution implementation, but not mine though. I can't remember where I
 came across this code. I did some cleaning, reconstruction and refactoring.
+
+//Super resolution with Bilateral Total Variation
+//Implimentation of a paper;
+//Farsiu, S.,Robinson, D., Elad, M., Milanfar, P."Fast and robust multiframe super resolution," IEEETrans.ImageProcessing 13 (2004)1327?1344.
