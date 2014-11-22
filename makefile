@@ -1,5 +1,5 @@
 INCLUDE=-I/usr/include/opencv
-FLAGS=-lml -lcvaux -lhighgui -lcv -lcxcore
+FLAGS=`pkg-config --libs opencv`
 LIBS=-L/usr/lib
 main:
 	g++ -o main *.cpp ${INCLUDE} ${LIBS} ${FLAGS} 
