@@ -6,7 +6,7 @@
 
 int main(int argc, char** argv)
 {
-    Mat image = imread("C:\\Users\\David\\Desktop\\lenna1.png", true);//input image
+    Mat image = imread(argv[1], true);//input image
     if(image.empty())
     {
         cout<<"invalid image name"<<endl;
